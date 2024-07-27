@@ -2,11 +2,11 @@ import logging
 from rich.console import Console
 from rich.logging import RichHandler
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
-import time,ints
+from selenium.webdriver.common.by import By
+import time
 import sys
+import ints
 
 # Initialize rich console
 console = Console()
@@ -17,7 +17,16 @@ console.log('Created By Aman', style="cyan")
 console.log('Distributed under All Rights Reserved License', style="cyan")
 console.log(' ')
 
-logging.basicConfig(level=logging.INFO, format='%(message)s', handlers=[RichHandler(console=console)])
+# Configure logging with rich handler and file handler
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(message)s',
+    handlers=[
+        RichHandler(console=console),
+        logging.FileHandler('bruteforce.log')  # Add a file handler
+    ]
+)
+
 def create_webdriver():
     chrome_options = Options()
     chrome_options.add_argument("--no-sandbox")
