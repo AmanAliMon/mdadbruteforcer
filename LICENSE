@@ -1,0 +1,69 @@
+# GNU GENERAL PUBLIC LICENSE
+## Version 3, 29 June 2007
+
+### Copyright (C) 2024 Aman Ali
+### This file is part of MDAD Brute Forcer.
+
+## TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+### 0. Definitions
+
+This License refers to version 3 of the GNU General Public License.
+
+"The Program" refers to any copyrightable work licensed under this License. Each licensee is addressed as "you".
+
+"Copyright" means copyright as defined by copyright law and similar laws.
+
+### 1. Source Code
+
+The "source code" for a work means the preferred form of the work for making modifications to it.
+
+### 2. Basic Permissions
+
+You may copy, modify, and distribute the Program, or works based on the Program, under the terms of this License.
+
+### 3. Copyleft
+
+The modified work must itself be distributed under the terms of this License. All rights granted under this License are granted on the condition that you comply with the License.
+
+### 4. Conveying Modified Source Versions
+
+You must cause the modified files to carry prominent notices stating that you changed the files and the date of any change.
+
+### 5. Conveying Modified Works
+
+You must preserve all the notices that refer to this License and to the absence of any warranty. You must keep intact all notices stating that this License applies to the modified work.
+
+### 6. Distribution of Non-Source Forms
+
+You must distribute the source code for all programs that you distribute.
+
+### 7. Additional Terms
+
+You may add further restrictions to the GPL license on certain uses of your Program, but you may not impose restrictions that would contradict the License.
+
+### 8. Acceptance of License
+
+By copying, modifying, or distributing the Program, you accept the License. If you do not agree to the terms, do not use the Program.
+
+## END OF TERMS AND CONDITIONS
+
+### How to Apply This License to Your New Programs
+
+If you develop a new program and want to apply the GPL to it, include a copy of this license and the following notice in your program:
+
+```plaintext
+    MDAD Brute Forcer
+    Copyright (C) 2024 Aman Ali
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+    
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <http://www.gnu.org/licenses/>.
