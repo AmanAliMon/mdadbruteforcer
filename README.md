@@ -8,7 +8,6 @@ This script is designed to perform a brute force attack on Facebook login creden
 ## Features
 
 - Automated login attempts using Selenium WebDriver
-- Headless operation (no GUI) for background execution
 - Captures and saves the page source upon successful login or error
 - Customizable input for email and password list
 
@@ -16,8 +15,6 @@ This script is designed to perform a brute force attack on Facebook login creden
 
 - Python 3.6 or higher
 - `pip` (Python package installer)
-- `selenium` library
-- `rich` library
 - Google Chrome and ChromeDriver
 
 ## Installation
@@ -25,18 +22,10 @@ This script is designed to perform a brute force attack on Facebook login creden
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/facebook-brute-force-tool.git
-   cd facebook-brute-force-tool
+   git clone https://github.com/amanalimon/mdadbruteforcer.git
+   cd mdadbruteforcer
+   ./mdadscr
    ```
-
-2. **Create a virtual environment and activate it:**
-
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   ```
-> You must have Chrome installed
-
 ## Usage
 
 1. **Prepare your password list:**
@@ -51,10 +40,6 @@ This script is designed to perform a brute force attack on Facebook login creden
 
 - Ensure that the email and passwords are formatted correctly and that `passs.trx` does not contain any special characters or unnecessary whitespace.
 - Running this tool extensively can result in your IP being temporarily blocked by Facebook.
-
-## License
-
-Distributed under the All Rights Reserved License. See the [LICENSE](LICENSE) file for more information.
 
 ## Contact
 
